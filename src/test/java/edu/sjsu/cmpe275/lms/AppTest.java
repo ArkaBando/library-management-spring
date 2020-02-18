@@ -51,7 +51,6 @@ public class AppTest {
         book2 = new Book("2222222222222", "Author", "Title", "12:34:56", "Publisher", "2016", "MLK", 5, "Available", "test,book", null);
         book3 = new Book("3333333333333", "Author", "Title", "12:34:56", "Publisher", "2016", "MLK", 1, "Available", "test,book", null);
         user1 = new User(123456, "user@gmail.com", "password", "ROLE_USER", true);
-
         userBook1 = new UserBook(book1, user1, LocalDateTime.now(), 0);
     }
 
